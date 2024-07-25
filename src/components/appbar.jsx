@@ -68,21 +68,24 @@ function Appbar() {
 
     <div
       id="navbar"
-      className={`fixed top-0 hidden md:visible rounded-lg bg-[#222222] bg-opacity-70 w-[100%] mx-[3vh] z-50 md:flex justify-between px-5 py-2 text-white shadow-lg transition-transform duration-300 ${
+      className={`fixed top-0 hidden md:visible rounded-lg bg-[#222222] bg-opacity-70 w-[100%]  mx-[3vh] z-50 md:flex justify-between items-center px-10 py-3 text-white shadow-lg transition-transform duration-300 ${
         visible ? 'translate-y-0' : '-translate-y-full'
       }`}
     >
-<div className='flex justify-start gap-16'>  
-      <button onClick={() => scrollToSection('home')} className="hover:text-gray-400 text-[#40DFAF] font-bold mr-[5vh]">
+      <button onClick={() => scrollToSection('home')} className="hover:text-gray-400 text-[#40DFAF] font-bold text-[27px] mr-[5vh]">
         Ashjin
       </button>
+
+<div className='flex justify-between gap-20 tracking-widest '>  
+      
       <button onClick={() => scrollToSection('about')} className="hover:text-gray-400">About</button>
-      <button onClick={() => scrollToSection('work')} className="hover:text-gray-400">Work</button>
       <button onClick={() => scrollToSection('newsletter')} className="hover:text-gray-400">Newsletter</button>
+
+      <button onClick={() => scrollToSection('work')} className="hover:text-gray-400">Work</button>
      
       </div>
 
-      <button className="h-10 w-36 bg-[#40DFAF] text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
+      <button className="h-8 w-32 bg-[#40DFAF] text-sm text-black rounded-lg font-semibold transform hover:-translate-y-1 transition duration-400">
         Book a Session
       </button>
     </div>
