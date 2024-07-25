@@ -1,9 +1,9 @@
-import { BrowserRouter, Routes, Route, useNavigate, useLocation} from 'react-router-dom'
-
+import React from 'react';
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Appbar from './components/appbar';
 import Home from './components/home';
 import './index.css'
-import React from 'react';
+
 
 
 
