@@ -109,12 +109,12 @@ export function SpotlightPreview() {
         <p className="mt-4 font-normal text-lg text-neutral-300 max-w-2xl text-center mx-auto">
           We help you reach the right target audience, create relatable content, engage better with your network, increase followers and estabilish you as a thought leader in the industry
         </p>
-        <button className="px-6 py-2 mt-8 bg-[#40DFAF] text-black align-middle rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
+        <button className="px-6 py-2 mt-6 bg-[#40DFAF] text-black align-middle rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
   Book a Session 
 </button>
     </div>
 
-    <div className="h-[50rem] w-full hidden md:visible md:flex md:items-center md:justify-center bg-black antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <div className="h-[55rem] w-full hidden md:visible md:flex md:items-center md:justify-center bg-black antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
