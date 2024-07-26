@@ -1,2 +1,3 @@
 # Ashjin
-Landing Page
+Landing Page using Aceternity UI
+Link to the page: https://ashjin.vercel.app/
